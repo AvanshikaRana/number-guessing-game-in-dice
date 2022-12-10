@@ -4,7 +4,7 @@ import random
 f="y"
 a=0
 while f=="y":
-    com=random.randint(1,6)
+    com=random.randint(1,6)# the function random.randit give the command to computer ato gusses any no. betweem=n the givin limit 
     user=int(input("enter your no. in between 1 to 6 please: "))
     if user==com:
         a=a+1
